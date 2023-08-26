@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 3,
+    "name" : "demo extension 1",
+    "version" : "1.0.0",
+    "description" : "デモ拡張",
+    "permissions" : [
+        "contextMenus",
+        "scripting",
+        "activeTab"
+    ],
+    "background": {
+		"service_worker" : "background.js",
+        "type" : "module"
+	}
+}
