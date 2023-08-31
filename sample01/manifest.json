@@ -1,8 +1,8 @@
 {
     "manifest_version" : 3,
-    "name" : "demo extension 1",
+    "name" : "sample extension 1",
     "version" : "1.0.0",
-    "description" : "デモ拡張",
+    "description" : "サンプル拡張",
     "permissions" : [
         "contextMenus",
         "scripting",
