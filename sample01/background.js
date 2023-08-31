@@ -20,4 +20,7 @@ function getValue(){
     for(let idx of document.querySelectorAll("form input")){
         console.log(`${idx.value}`);
     }
+    for(let idx of document.querySelectorAll("form textarea")){
+        console.log(`${idx.value}`);
+    }
 }
