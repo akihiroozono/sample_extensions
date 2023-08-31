@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 3,
+    "name" : "sample extension 3",
+    "version" : "1.0.0",
+    "description" : "サンプル拡張",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content-script.js"]
+        }
+    ]
+}
